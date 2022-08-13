@@ -1,0 +1,49 @@
+{
+  "name": "vue3-text-clamp",
+  "author": "Sherwin Shen",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "build:lib": "vue-tsc --noEmit && rm -rf lib && npx rollup -c build/rollup.config.ts"
+  },
+  "main": "lib/text-clamp.js",
+  "module": "lib/text-clamp.esm.js",
+  "types": "lib/types/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "resize-detector": "^0.3.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@highlightjs/vue-plugin": "^2.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "@vue/compiler-sfc": "^3.2.37",
+    "highlight.js": "^11.6.0",
+    "less": "^4.1.3",
+    "rollup": "^2.77.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "rollup-plugin-vue": "^6.0.0",
+    "spectre.css": "^0.5.9",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vue-i18n": "^9.2.2",
+    "vue-tsc": "^0.38.4"
+  },
+  "peerDependencies": {
+    "resize-detector": "^0.3.0",
+    "vue": "^3.2.37"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherwinshen/vue3-text-clamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sherwinshen/vue3-text-clamp/issues"
+  },
+  "homepage": "https://sherwinshen.github.io/vue3-text-clamp/#/"
+}

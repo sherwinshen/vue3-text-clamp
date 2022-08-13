@@ -1,0 +1,13 @@
+.*
+vite-env.d.ts
+vite.config.ts
+tsconfig.json
+tsconfig.node.json
+pnpm-lock.yaml
+index.html
+node_modules
+public
+src
+build
+dist
+package
