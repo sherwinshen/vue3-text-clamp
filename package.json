@@ -1,7 +1,8 @@
 {
   "name": "vue3-text-clamp",
   "author": "Sherwin Shen",
-  "version": "0.1.0",
+  "description": "Vue3 component which allows you to ellipsis your multiline text.",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -45,5 +46,12 @@
   "bugs": {
     "url": "https://github.com/sherwinshen/vue3-text-clamp/issues"
   },
-  "homepage": "https://sherwinshen.github.io/vue3-text-clamp/#/"
+  "homepage": "https://sherwinshen.github.io/vue3-text-clamp/#/",
+  "keywords": [
+    "text-clamp",
+    "vue3",
+    "text-overflow",
+    "ellipsis",
+    "typescript"
+  ]
 }
