@@ -159,9 +159,9 @@ const isClamped = computed(() => {
 watch(
   () => isClamped.value,
   (val: boolean) => {
-    nextTick(() => {
+    setTimeout(() => {
       emits("clamp-change", val);
-    });
+    }, 0);
   },
   { immediate: true }
 );
