@@ -2,7 +2,7 @@
   "name": "vue3-text-clamp",
   "author": "Sherwin Shen",
   "description": "Vue3 component which allows you to ellipsis your multiline text.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
