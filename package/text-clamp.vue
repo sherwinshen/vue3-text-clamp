@@ -170,7 +170,7 @@ const realText = computed(() => {
 });
 const clampedText = computed(() => {
   if (props.location === "start") {
-    return props.ellipsis + (props.text.slice(0, state.offset) || "").trim();
+    return props.ellipsis + (props.text.slice(-state.offset) || "").trim();
   }
   if (props.location === "middle") {
     const split = Math.floor(state.offset / 2);
