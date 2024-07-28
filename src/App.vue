@@ -334,6 +334,16 @@ import TextClamp from 'vue3-text-clamp';
             <code>false</code>
           </p>
         </li>
+        <li>
+          <p>
+            <code>html: boolean</code>
+          </p>
+          <p>{{ t("props8") }}</p>
+          <p>
+            {{ t("default") }}
+            <code>false</code>
+          </p>
+        </li>
       </ul>
       <div class="divider text-center" :data-content="t('api2')"></div>
       <ul>

@@ -27,6 +27,7 @@ export default {
   props5: "The location of the ellipsis.",
   props6: "Whether to observe the root element's size.",
   props7: "Whether the clamped area is expanded(Supports .sync modifier).",
+  props8: "Used to render any html on the string. Use only with trusted input.",
 
   api2: "↓ Slots",
   beforeScope: "Slot scope: ",

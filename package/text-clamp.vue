@@ -42,12 +42,14 @@ const props = withDefaults(
     location?: "start" | "middle" | "end";
     ellipsis?: string;
     autoResize?: boolean;
+    html?: boolean;
   }>(),
   {
     expanded: false,
     location: "end",
     ellipsis: "…",
     autoResize: false,
+    html: false,
   }
 );
 const emits = defineEmits<{
@@ -71,7 +73,7 @@ const realMaxHeight = computed(() => {
 });
 
 const applyChange = () => {
-  textRef.value && (textRef.value.textContent = realText.value);
+  textRef.value && (props?.html ? textRef.value.innerHTML = realText.value : textRef.value.textContent = realText.value);
 };
 const update = () => {
   if (state.localExpanded) return;
